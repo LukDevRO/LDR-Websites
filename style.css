@@ -1,0 +1,192 @@
+@import url('https://www.dafont.com/caviar-dreams.font?');
+@import url('www.dafont.com/cocogoose.font?');
+@import url('https://fonts.google.com/specimen/Montserrat');
+body {      
+    background: url("background.jpg");
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+
+.title {
+    position: absolute;
+    height: 40px;
+    width: 160px;
+    top: 30px;
+    border-radius: 20px;
+    left: 5vw;
+    animation: gradient 5s ease infinite;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5vw;
+    font-family: 'Caviar Dreams';
+}
+
+.menu-overlay {
+    position: fixed;
+    left: -10%;
+    height: 100%;
+    width: 25%;
+    background: linear-gradient(to right,darkred,rgb(87, 0, 0)); /* Edit background colour here */
+    transform: skew(-15deg);
+    border: 1px solid #cb4d4d; /* Edit border colour here */
+    border-top: none;
+    border-bottom: none;
+    box-shadow: rgba(203, 77, 77, 0.56) 0px 0px 40px 2px; /* Edit box shadow here */
+}
+.logo-container > logo {
+    position: fixed;
+    top: 2.5%;
+    left: 1%;
+    height: 6%;
+    width: 3%;
+    border-radius: 30%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url('https://logos-world.net/wp-content/uploads/2021/03/FiveM-Logo.png');
+    box-shadow: rgba(203, 77, 77, 0.56) 0px 0px 10px 2px; /* Edit box shadow here */
+}
+.content-btn1 {
+    position: fixed;
+    top: 25%;
+    left: 1%;
+    border: 0;
+    height: 4.5%;
+    text-decoration: none;
+    width: 10%;
+    border: 1px solid #cb4d4d; /* Edit border here */
+    box-shadow: rgba(203, 77, 77, 0.56) 0px 0px 5px 2px; /* Edit box shadow here */
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff; /* Edit colour here */
+}
+.content-btn1:hover {
+    color: #ffffff;
+    background-color: rgb(161, 0, 0);
+    box-shadow: rgba(255, 0, 0, 0.56) 0px 0px 15px 2px; 
+}
+.content-btn2 {
+    position: fixed;
+    top: 18%;
+    left: 1%;
+    height: 4.5%;
+    text-decoration: none;
+    width: 10%;
+    border: 1px solid #cb4d4d; /* Edit border here */
+    box-shadow: rgba(203, 77, 77, 0.56) 0px 0px 5px 2px; /* Edit box shadow here */
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff; /* Edit colour here */
+}
+.content-btn2:hover {
+    color: #ffffff;
+    background-color: rgb(161, 0, 0);
+    box-shadow: rgba(255, 0, 0, 0.56) 0px 0px 15px 2px; 
+}
+
+
+.content-btn3 {
+    position: fixed;
+    top: 11%;
+    left: 1%;
+    height: 4.5%;
+    text-decoration: none;
+    width: 10%;
+    border: 1px solid #cb4d4d; /* Edit border here */
+    box-shadow: rgba(203, 77, 77, 0.56) 0px 0px 5px 2px; /* Edit box shadow here */
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff; /* Edit colour here */
+}
+.content-btn3:hover {
+    color: #ffffff;
+    background-color: rgb(161, 0, 0);
+    box-shadow: rgba(255, 0, 0, 0.56) 0px 0px 15px 2px; 
+}
+
+.content-btn4 {
+    position: fixed;
+    top: 32%;
+    left: 1%;
+    height: 4.5%;
+    text-decoration: none;
+    width: 10%;
+    border: 1px solid #cb4d4d; /* Edit border here */
+    box-shadow: rgba(203, 77, 77, 0.56) 0px 0px 5px 2px; /* Edit box shadow here */
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff; /* Edit colour here */
+}
+.content-btn4:hover {
+    color: #ffffff;
+    background-color: rgb(161, 0, 0);
+    box-shadow: rgba(255, 0, 0, 0.56) 0px 0px 15px 2px; 
+}
+.content-btn5 {
+    position: fixed;
+    top: 39%;
+    left: 1%;
+    height: 4.5%;
+    text-decoration: none;
+    width: 10%;
+    border: 1px solid #cb4d4d; /* Edit border here */
+    box-shadow: rgba(203, 77, 77, 0.56) 0px 0px 5px 2px; /* Edit box shadow here */
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff; /* Edit colour here */
+}
+.content-btn5:hover {
+    color: #ffffff;
+    background-color: rgb(161, 0, 0);
+    box-shadow: rgba(255, 0, 0, 0.56) 0px 0px 15px 2px; 
+}
+.content-btn6 {
+    position: fixed;
+    top: 46%;
+    left: 1%;
+    height: 4.5%;
+    text-decoration: none;
+    width: 10%;
+    border: 1px solid #cb4d4d; /* Edit border here */
+    box-shadow: rgba(203, 77, 77, 0.56) 0px 0px 5px 2px; /* Edit box shadow here */
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff; /* Edit colour here */
+}
+.content-btn6:hover {
+    color: #ffffff;
+    background-color: rgb(161, 0, 0);
+    box-shadow: rgba(255, 0, 0, 0.56) 0px 0px 15px 2px; 
+}
+.content-btn7 {
+    position: fixed;
+    top: 53%;
+    left: 1%;
+    height: 4.5%;
+    text-decoration: none;
+    width: 10%;
+    border: 1px solid #cb4d4d; /* Edit border here */
+    box-shadow: rgba(203, 77, 77, 0.56) 0px 0px 5px 2px; /* Edit box shadow here */
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff; /* Edit colour here */
+}
+.content-btn7:hover {
+    color: #ffffff;
+    background-color: rgb(161, 0, 0);
+    box-shadow: rgba(255, 0, 0, 0.56) 0px 0px 15px 2px; 
+}
+
+
+
+
